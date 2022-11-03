@@ -1,5 +1,7 @@
 html {
-	font-size: 62.5%;
+	/* font-size: 62.5%; */
+	/* box-sizing: border-box; */
+	font-family: sans-serif;
 }
 
 body {
@@ -19,5 +21,42 @@ main {
 
 footer {
 	height: 10vh;
-	background-color: aqua;
+	background-color: rgb(18, 145, 231);
+}
+
+#icon {
+	width: 90px;
+}
+
+.contact {
+	padding: 30px;
+	max-width: 1300px;
+	margin: auto;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+}
+
+.footer-info {
+	list-style-type: none;
+	display: flex;
+	justify-content: flex-end;
+	align-items: stretch;
+}
+
+.footer-info li {
+	color: white;
+	margin: 10px;
+}
+
+a {
+	text-decoration: none;
+}
+
+a:link {
+	color: white;
+}
+
+a:visited {
+	color: gray;
 }
