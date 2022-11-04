@@ -1,16 +1,27 @@
+/* * {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	outline: 0;
+	font-size: 100%;
+	vertical-align: baseline;
+	background: transparent;
+} */
+
 html {
 	/* font-size: 62.5%; */
 	box-sizing: border-box;
 	font-family: sans-serif;
+	margin-top: -21px;
 }
 
 body {
-	margin: 5px;
-	height: 100vh;
+	/* margin: 5px; */
+	/* height: 100vh; */
 }
 
 header {
-	height: 30vh;
+	height: 40vh;
 	background: rgb(189, 223, 189);
 }
 
@@ -25,7 +36,7 @@ header {
 }
 
 textarea {
-	height: 200px;
+	height: 300px;
 	width: 500px;
 }
 
@@ -35,8 +46,50 @@ h1 {
 }
 
 main {
-	height: 60vh;
-	background: rgb(43, 43, 160);
+	height: 50vh;
+	background: rgb(149, 149, 245);
+}
+
+.keyboard {
+	padding-top: 6rem;
+	display: flex;
+	flex-direction: column;
+}
+
+.key-row-one {
+	padding-top: 1rem;
+}
+
+.row-one {
+	list-style-type: none;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-evenly;
+	align-items: center;
+	/* align-content: center; */
+}
+
+.row-one li {
+	border: 3px solid gray;
+	border-radius: 10px;
+	color: darkslategray;
+	height: 3rem;
+	width: 3rem;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.double-key {
+	width: 6rem !important;
+}
+
+.triple-key {
+	width: 9rem !important;
+}
+
+.quadruple-key {
+	width: 12rem !important;
 }
 
 footer {
@@ -49,12 +102,14 @@ footer {
 }
 
 .contact {
-	padding: 30px;
+	/* padding: 30px; */
 	max-width: 1300px;
 	margin: auto;
 	display: flex;
 	flex-direction: row;
 	justify-content: space-between;
+	align-items: center;
+	align-content: space-between;
 }
 
 .footer-info {
